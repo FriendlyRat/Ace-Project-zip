@@ -1,0 +1,174 @@
+/*(skip to bottom of this comment for summary)sorry for so much whitespace, if u can figure out how to get rid of it woohoo, if not, I'll
+continue working on that in the morning, my goal for tonight where to get the newspaper basically done
+and get the layout for the events, whitespace will be dealt with if u don't do it.
+So goals for tomorrow:
+Finishing footer
+cleaning whitespace
+making the newspaper signup actually nice
+add text to the events
+GN
+GOODLUCK WITH THE PHP IFE*/
+body{
+    margin: 0;
+    padding: 0;
+    width: fit-content+1;
+    height: min-content;
+}
+
+
+/*This is good, just make links for the about, the subscription and his book*/
+header.heading{
+    color: blue;
+    background-image:url("Images/action\ shot.png");
+    height: 415px;
+    width: 100%;
+}
+header.heading div{
+    color: gold;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    font-size: 21px;
+    margin-left: 90px;
+    left: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+
+/*You can leave this as well, no special aid needed, unless you want to design it further*/
+section.name{
+    width: 100%;
+    height: 75px;
+    display: inline-block;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section.name div{
+    position: relative;
+    color: black;
+    top: 25px;
+    left: 550px;
+    font-size: 21px;
+}
+
+
+/**/
+section.schedule{
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(56, 56, 56);
+}
+section.schedule div.events{
+    height: 650px;
+    width: 48.3%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+section.schedule div.vl{
+    border-left: 1px solid gold;
+    height: 750px;
+    position: relative;
+    left: 650px;
+    top: -670px;
+}
+/*The events table*/
+section.schedule div.events div.hl.one{
+    border-top: 1.5px solid rgb(56, 56, 56);
+    width: 620px;
+    position: relative;
+    left: 0px;
+    top: 50px;
+}
+section.schedule div.events div.hl.two{
+    border-top: 1.5px solid rgb(56, 56, 56);
+    width: 620px;
+    position: relative;
+    left: 0px;
+    top: 225px;
+}
+section.schedule div.events div.hl.three{
+    border-top: 1.5px solid rgb(56, 56, 56);
+    width: 620px;
+    position: relative;
+    left: 0px;
+    top: 385px;
+}
+section.schedule div.events div.v1{
+    border-left: 1.5px solid rgb(56, 56, 56);
+    height:700px;
+    position: relative;
+    left: 150px;
+    top: -115px;
+}
+
+
+section.schedule div.news{
+    height: 650px;
+    width: 40%;
+    background-color: whitesmoke;
+    position: relative;
+    top: -1400px;
+    left: 710px;
+}
+section.schedule div p{
+    color: gold;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: -80px;
+}
+
+
+/*This section if for the news letter portion, please design it better, my braincells are dying*/
+section.schedule div.news form label{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+section.schedule div.news form input.type{
+    border: none;
+    border-bottom: 1.5px solid gold;
+    background-color: whitesmoke;
+}
+section.schedule div.news form input.done{
+    border: 1.5px solid gold;
+    position: relative;
+    text-align: center;
+    left: 200px;
+    background-color: gold;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
+/*This sction is for the footer, what i had in mind where to
+put in his social at the right end, and then his email and phone number at the left end, stacked on top
+of each other, thats why the display is "block"*/
+footer{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+footer img{
+    display: block;
+}
+footer img.insta{
+    width: 26px;
+    position: relative;
+    top: 0px;
+}
+footer img.tiktok{
+    width: 30px;
+    position: relative;
+    top: 0px;
+}
+footer img.faceb{
+    width: 26px;
+    position: relative;
+    top: 0px;
+}
+
